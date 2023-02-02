@@ -305,8 +305,8 @@
 
             bindings = <
      &trans         &none         &none         &none  &kp RS(LG(N4))         &none                                          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp KP_ASTERISK  &kp KP_NUMLOCK
- &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4                                          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6   &kp KP_PLUS    &kp KP_DIVIDE             &kp
-     &trans  &out OUT_TOG         &none         &none           &none         &none  &trans  &trans          &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3           &kp              &kp    &kp KP_ENTER
+ &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4                                          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6   &kp KP_PLUS    &kp KP_DIVIDE           &none
+     &trans  &out OUT_TOG         &none         &none           &none         &none  &trans  &trans          &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3         &none            &none    &kp KP_ENTER
                                                &trans          &trans        &trans  &trans  &trans          &trans  &trans  &kp KP_NUMBER_0       &kp KP_DOT     &kp KP_COMMA
             >;
         };
