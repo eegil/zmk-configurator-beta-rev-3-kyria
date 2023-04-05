@@ -159,6 +159,62 @@
             key-positions = <37 38>;
             slow-release;
         };
+
+        exclamation {
+            bindings = <&kp EXCL>;
+            key-positions = <1 13>;
+            layers = <0 1>;
+            slow-release;
+        };
+
+        at {
+            bindings = <&kp AT>;
+            key-positions = <2 14>;
+            layers = <0 1>;
+            slow-release;
+        };
+
+        hash {
+            bindings = <&kp HASH>;
+            key-positions = <3 15>;
+            layers = <0 1>;
+            slow-release;
+        };
+
+        dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <4 16>;
+            layers = <0 1>;
+            slow-release;
+        };
+
+        percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <5 17>;
+            layers = <0 1>;
+            slow-release;
+        };
+
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <6 18>;
+            layers = <0 1>;
+            slow-release;
+        };
+
+        ampersand {
+            bindings = <&kp AMPS>;
+            key-positions = <7 19>;
+            layers = <0 1>;
+            slow-release;
+        };
+
+        star {
+            bindings = <&kp STAR>;
+            key-positions = <8 20>;
+            layers = <0 1>;
+            slow-release;
+        };
     };
 
     behaviors {
